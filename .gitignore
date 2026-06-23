@@ -1,0 +1,30 @@
+﻿# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+env/
+*.egg-info/
+
+# Node
+node_modules/
+build/
+.npm
+
+# Model & data files (large)
+*.pkl
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp scripts
+coffeebi/backend/train_model.py
+coffeebi/backend/import_csv_to_db.py
+coffeebi/backend/fix_ventes_csv.py

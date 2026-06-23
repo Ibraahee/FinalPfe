@@ -65,16 +65,3 @@ Va sur http://localhost:8000/docs et teste :
 ```
 
 ---
-
-## 👥 Responsabilités claires
-
-| Fichier | Responsable |
-|---|---|
-| `backend/routes/predictions.py` | **Hajar** (logique ML) + **Abdelhadi** (structure route) |
-| `backend/model_cafe.pkl` | **Hajar** |
-| `backend/main.py` | **Abdelhadi** |
-| `backend/database.py` | **Abdelhadi** |
-| `backend/models/` | **Khadija** (schema) + **Abdelhadi** (ORM) |
-| `frontend/` | **Hafsa** (aucun changement) |
-| Power BI | **Ibrahim** |
-| Documentation | **Ismail** |

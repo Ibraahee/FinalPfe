@@ -3,33 +3,6 @@
 
 ---
 
-## 📁 Structure
-
-```
-coffeebi/
-├── backend/                    ← FastAPI (Abdelhadi + Hajar)
-│   ├── main.py                 ← Abdelhadi — serveur principal
-│   ├── database.py             ← Abdelhadi — connexion MySQL
-│   ├── auth.py                 ← Abdelhadi — JWT
-│   ├── model_cafe.pkl          ← ⭐ Hajar — copier ici !
-│   ├── requirements.txt        ← mis à jour avec ML deps
-│   ├── models/models.py        ← Khadija schema / Abdelhadi ORM
-│   ├── schemas/schemas.py      ← Abdelhadi
-│   └── routes/
-│       ├── predictions.py      ← ⭐ Hajar (ML) + Abdelhadi (infra)
-│       ├── dashboard.py        ← Abdelhadi
-│       ├── sales.py            ← Abdelhadi
-│       ├── auth.py             ← Abdelhadi
-│       ├── clients.py          ← Abdelhadi
-│       ├── products.py         ← Abdelhadi
-│       └── reports.py          ← Abdelhadi
-└── frontend/                   ← Hafsa — React (aucun changement)
-    └── src/
-        └── pages/Predictions.jsx
-```
-
----
-
 ## ⚠️ ÉTAPE 1 — Copier le modèle ML (Hajar)
 
 ```bash
